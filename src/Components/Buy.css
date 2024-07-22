@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 75vh;
+    gap: 20px;
+  }
+  
+  .card {
+    background-size: cover;
+    background-position: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 30px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+
+  
+  .title {
+    margin: 0 0 20px;
+  }
+  
+  .button {
+    background: #301e79;
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 80px;
+    width: 200px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 30px;
+   
+  }
+  
+  .button:hover {
+    background: #e31515;
+    transform: scale(1.1);
+  }
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stacks cards vertically on small screens */
+    height:600px;
+    width: 400px; /* Allows container to expand with content */
+  }
+
+  .card {
+    width: 100%; /* Makes cards take full width on small screens */
+    height: auto; /* Allows card height to adjust with content */
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 10px; /* Reduces padding for small screens */
+  }
+
+  .button {
+    padding: 5px 10px; /* Reduces button padding for small screens */
+  }
+}

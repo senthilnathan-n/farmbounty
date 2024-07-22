@@ -1,0 +1,65 @@
+.best-offers {
+    text-align: center;
+    padding: 0px;
+    margin-top: 60px;
+    color: blue;
+  }
+  
+  .best-offers h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .best-offers hr {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .best-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .bestcard {
+    flex: 0 1 calc(13.33% - 10px); /* Adjust as necessary */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+best-container:hover{
+    transform:scale3d(3.3)
+}
+  
+  .bestcard img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .bestcard h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .bestcard p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .bestcard {
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bestcard {
+      flex: 0 1 100%;
+    }
+  }
+  

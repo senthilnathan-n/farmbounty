@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #98f08fd4;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .footer-categories {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-categories li {
+    margin: 5px 0;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  

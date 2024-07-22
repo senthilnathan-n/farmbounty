@@ -1,0 +1,50 @@
+.need-help {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    background-color: #ffffff;
+  }
+  
+  .help-box {
+    flex: 1;
+    margin: 0 40px;
+   padding: 40px;
+    background-color: #baffbf5a;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-icon {
+    font-size: 60px;
+    color: #12ff32;
+    margin-bottom: 10px;
+  }
+  .help-icon2 {
+    font-size: 60px;
+    color: #2f53e5;
+    margin-bottom: 10px;
+  }
+  .help-icon3 {
+    font-size: 60px;
+    color: #534747;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:rgb(240, 95, 95);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #0056b3;
+  }
+  

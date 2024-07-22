@@ -1,0 +1,125 @@
+/* App.css */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e7e7e5; /* cream color */
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  width: 120px;
+  height: 70px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-grow: 1;
+  font-weight: 300;
+  margin-left: 250px;
+  list-style-type: none;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-links li {
+  padding: 0px;
+  margin-left: 50px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: rgb(113, 65, 28);
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  color: darkgreen; /* Change color on hover */
+}
+
+.navbar-search {
+  display: flex;
+  margin-left: 500px;
+  align-items: center;
+}
+
+.navbar-profile {
+  font-size: 32px; /* Adjust size as needed */
+  color: green;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    margin-left: 0px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-search {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar-profile {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 100px;
+    height: 60px;
+  }
+
+  .navbar-links {
+    font-size: medium;
+  }
+
+  .navbar-links li {
+    margin-top: 8px;
+  }
+
+  .navbar-profile {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .navbar-logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  .navbar-links {
+    font-size: small;
+  }
+
+  .navbar-links li {
+    margin-top: 6px;
+  }
+
+  .navbar-profile {
+    font-size: 24px;
+   
+  }
+}

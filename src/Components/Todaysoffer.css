@@ -1,0 +1,64 @@
+.todays-offers {
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;
+    color: blue;
+  }
+  
+  .todays-offers h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .todays-offers hr {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .offers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    flex: 0 1 calc(13.33% - 10px); /* Adjust as necessary */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+offers-container:hover{
+    transform:scale3d(3.3)
+}
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 0 1 100%;
+    }
+  }
+  
